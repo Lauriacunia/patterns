@@ -9,6 +9,9 @@ public class PizzeriaPepe implements IPizzeria{
         if(tipo.equals("Vegetariana")){
             return new Pizza(8, "Vegetariana");
         }
+        if(tipo.equals("Peperoni borde relleno")){
+            return new PizzaBordeRelleno(12, "Peperoni");
+        }
         return null;
 
     }

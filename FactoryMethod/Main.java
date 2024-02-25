@@ -7,7 +7,9 @@ public class Main {
       PizzeriaPepe pizzeriaPepe = new PizzeriaPepe();
       Pizza peperoni = pizzeriaPepe.crearPizza("Peperoni");
       Pizza vegetariana = pizzeriaPepe.crearPizza(("Vegetariana"));
+      Pizza peperoniConBordeRelleno = pizzeriaPepe.crearPizza(("Peperoni borde relleno"));
         System.out.println(peperoni);
         System.out.println(vegetariana);
+        System.out.println(peperoniConBordeRelleno);
     }
 }
